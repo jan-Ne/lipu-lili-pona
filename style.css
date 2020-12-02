@@ -9,6 +9,8 @@ body {
 }
 
 .page {
+  display: grid;
+  align-content: center;
   margin: auto;
   width: 42em;
   height: 54em;
@@ -41,6 +43,7 @@ th, td {
   border: solid 1px #cccccc;
   padding: 5px 10px;
   font-size: 14.667px;
+  text-align: center;
 }
 
 p, h5 {
