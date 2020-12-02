@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  font-family: "Nunito";
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #efefef;
+}
+
+th, td {
+  border: solid 1px #cccccc;
+}
+  
