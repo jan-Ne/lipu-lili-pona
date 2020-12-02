@@ -1,1 +1,0 @@
-# lipu-lili-pona
