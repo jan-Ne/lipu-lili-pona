@@ -74,6 +74,11 @@ p, h5 {
   grid-template-columns: auto auto auto auto auto auto auto auto;
 }
 
+.dictionary h5 {
+  text-align: right;
+  margin-right: 10px;
+}
+
 @media print {
   header {
     display: none;
