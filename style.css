@@ -11,6 +11,7 @@ body {
 .page {
   margin: auto;
   width: 42em;
+  height: 54em;
   background-color: white;
   padding: 96px 72px;
 }
