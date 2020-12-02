@@ -43,8 +43,14 @@ th, td {
   font-size: 14.667px;
 }
 
-p {
+p, h5 {
   font-size: 14.667px;
+  margin: 0px;
+}
+
+.dictionary {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
 }
 
 @media print {
