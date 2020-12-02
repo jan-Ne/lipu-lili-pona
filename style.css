@@ -15,6 +15,12 @@ header {
   padding: 10px;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000099;
+}
+
 .page {
   display: grid;
   align-content: center;
