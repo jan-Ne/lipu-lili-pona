@@ -1,4 +1,4 @@
-# lipu-lili-pona
+# lipu lili pona
 
 lipu lili pona is a single page (double sided) with the dictionary and grammar of toki pona.
 
