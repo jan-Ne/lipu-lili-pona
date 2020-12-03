@@ -79,6 +79,14 @@ p, h5 {
   margin-right: 10px;
 }
 
+hr {
+  border: 0px;
+}
+
+p.light {
+  font-weight: 300;
+}
+
 @media print {
   header {
     display: none;
@@ -86,5 +94,7 @@ p, h5 {
   body {
     background-color: white;
   }
+  hr {
+    page-break-after: always;
+  }
 }
-  
