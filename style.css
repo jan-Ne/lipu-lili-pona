@@ -15,7 +15,7 @@ header {
   padding: 10px;
 }
 
-#logo {
+.logo {
   height: 140px;
   display: block;
   margin: auto;
