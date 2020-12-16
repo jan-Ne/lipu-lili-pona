@@ -15,7 +15,7 @@
         dataType: "json",
         success: function(data){
           $.each(data, function(i, lang) {
-            $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + lang.code + "'>" + lang.name + "</option>");
+            $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + lang["code"] + "'>" + lang["name"] + "</option>");
           })
         }
       });
