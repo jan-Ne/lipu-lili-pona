@@ -10,9 +10,7 @@
   <script>
     $(document).ready(function() {
       $.getJSON("https://jan-ne.github.io/lipu-lili-pona/lang.json", function(data) {
-        $(data).each(function(i, lang){
-          $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + lang.code + "'>" + lang.name + "</option>");
-        });
+        console.log(data);
       });
     });
   </script>
