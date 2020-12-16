@@ -6,12 +6,12 @@
   <meta name="keywords" content="lipu lili pona">
   <link rel="stylesheet" type="text/css" href="https://jan-ne.github.io/lipu-lili-pona/style.css">
   <link rel="shortcut icon" href="https://jan-ne.github.io/lipu-lili-pona/lipuliliponasquare.png">
-  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function() {
       $.getJSON("https://jan-ne.github.io/lipu-lili-pona/lang.json", function(result) {
         $.each(result.language, function(){
-          $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + this['code'] + "'>" + this['name'] + "</option>");
+          $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + this["code"] + "'>" + this['name'] + "</option>");
         });
       });
     });
