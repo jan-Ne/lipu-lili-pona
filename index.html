@@ -9,9 +9,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function() {
-      $.getJSON("https://jan-ne.github.io/lipu-lili-pona/lang.json", function(data) {
-        console.log(data);
-      });
+      $.ajax({
+        type: "GET",
+        url: "https://jan-ne.github.io/lipu-lili-pona/lang.json",
+        dataType: "json",
+        success: function(data){
+          $.each(data, function(i, lang) {
+            $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/" + lang.code + "'>" + lang.name + "</option>");
+          })
+        }
+      )};
     });
   </script>
 </head>
