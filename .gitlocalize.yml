@@ -1,0 +1,6 @@
+synchronize:
+  paths:
+  - source: .
+    exclude:
+    - "404.html"
+    - "README.md"
