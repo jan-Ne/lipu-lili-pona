@@ -23,6 +23,9 @@ if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt/"){
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru/"){
   lang = "Русский";
 }
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/lipu-ante"){
+  lang = "lipu ante";
+}
 
 $(document).ready(function() {
   $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/id/'>Bahasa Indonesia</option>")
