@@ -21,6 +21,13 @@ header {
   margin: auto;
 }
 
+select {
+  border: solid 2px #cccccc;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Nunito';
+}  
+
 a {
   font-weight: bold;
   text-decoration: none;
@@ -39,7 +46,7 @@ a {
 
 h1 {
   text-align: center; 
-  margin-top: 0px;
+  margin: 0px;
 }
 
 h3, h4 {
