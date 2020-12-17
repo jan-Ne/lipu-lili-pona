@@ -2,19 +2,19 @@ var lang;
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/"){
   lang = "English";
 }
-if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/id"){
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/id/"){
   lang = "Bahasa Indonesia";
 }
-if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/es"){
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/es/"){
   lang = "Español";
 }
-if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/fr"){
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/fr/"){
   lang = "Français";
 }
-if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt"){
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt/"){
   lang = "Português";
 }
-if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru"){
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru/"){
   lang = "Русский";
 }
 
