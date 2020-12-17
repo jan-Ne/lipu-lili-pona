@@ -4,3 +4,4 @@ synchronize:
     exclude:
     - "404.html"
     - "README.md"
+    - "lipu-ante.html"
