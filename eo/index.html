@@ -8,26 +8,17 @@
   <meta name="keywords" content="lipu lili pona">
   <link rel="stylesheet" type="text/css" href="https://jan-ne.github.io/lipu-lili-pona/style.css">
   <link rel="shortcut icon" href="https://jan-ne.github.io/lipu-lili-pona/lipuliliponasquare.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://jan-ne.github.io/lipu-lili-pona/langmenu.js"></script>
 </head>
 <body>
   <header>
     <div><img src="https://jan-ne.github.io/lipu-lili-pona/lipuliliponalogo.png" alt="lipu lili pona" class="logo"></div>
     <h1>lipu lili pona</h1>
-    <table style="margin: auto;">
-      <tr>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/">English</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/id">Bahasa Indonesia</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/es">Español</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/eo">Esperanto</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/fr">Français</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/pt">Português</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/ru">Русский</a></td>
-        <td><a href="https://jan-ne.github.io/lipu-lili-pona/lipuante">lipu ante</a></td>
-        <td><div>
-<a href="https://github.com/jan-Ne/lipu-lili-pona" target="_blank"></a><a href="https://gitlocalize.com/repo/5541/whole_project?utm_source=badge" target="_blank"><img src="https://gitlocalize.com/repo/5541/whole_project/badge.svg" alt="GitLocalize"></a>
-</div></td>
-      </tr>
-    </table>
+    <div style="margin: auto; width: fit-content;">
+      <select id="lang-select" onChange="window.location.href=this.value"></select>
+    </div>
+  </header>
   </header>
   <div class="page">
     <h3>toki pona</h3>
