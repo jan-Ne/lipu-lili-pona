@@ -28,6 +28,16 @@ select {
   font-family: 'Nunito';
 }  
 
+.barlink {
+  position: relative;
+  top: -9px;
+  padding: 5px;
+  color: black;
+  font-weight: normal;
+  border: solid 2px #cccccc;
+  border-radius: 5px;
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
