@@ -3,5 +3,6 @@ synchronize:
   - source: .
     exclude:
     - "404.html"
-    - "README.md"
     - "lipu-ante.html"
+    - "README.md"
+    
