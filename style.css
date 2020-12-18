@@ -94,14 +94,27 @@ p, h5 {
   margin: 0px;
 }
 
+p {
+  font-weight: 600;
+
+h5 {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .dictionary {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+  
+.dictionary p {
+  font-weight: 400;
 }
 
 .dictionary h5 {
   text-align: right;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 hr {
