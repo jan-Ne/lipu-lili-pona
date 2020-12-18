@@ -26,6 +26,8 @@ select {
   border-radius: 5px;
   font-size: 18px;
   font-family: 'Nunito';
+  display: block;
+  margin: 10px auto;
 }  
 
 .barlink {
@@ -108,6 +110,14 @@ hr {
 
 p.light {
   font-weight: 300;
+}
+
+@media only screen and (min-width: 816px) {
+  .bar {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media print {
