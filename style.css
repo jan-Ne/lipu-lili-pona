@@ -50,8 +50,8 @@ a {
   display: grid;
   align-content: center;
   margin: auto;
-  width: 42em;
-  height: 54em;
+  width: 672px;
+  height: 864px;
   background-color: white;
   padding: 96px 72px;
 }
