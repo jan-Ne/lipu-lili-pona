@@ -25,6 +25,8 @@ if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt/"){
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru/"){
   lang = "Русский";
+if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/tr/"){
+  lang = "Türkçe";  
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/zh/"){
   lang = "中文";
@@ -43,6 +45,7 @@ $(document).ready(function() {
   $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/pl/'>Polski</option>");
   $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/pt/'>Português</option>");
   $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/ru/'>Русский</option>");
+  $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/tr/'>Türkçe</option>");
   $("#lang-select").append("<option value='https://jan-ne.github.io/lipu-lili-pona/zh/'>中文</option>");
   $("[value='"+window.location.href+"']").remove();
   $("#lang-select").prepend("<option value='"+window.location.href+"' selected>"+lang+"</option>");
