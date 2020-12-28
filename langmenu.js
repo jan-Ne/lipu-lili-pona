@@ -25,6 +25,7 @@ if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt/"){
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru/"){
   lang = "Русский";
+}  
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/tr/"){
   lang = "Türkçe";  
 }
