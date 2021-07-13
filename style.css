@@ -110,6 +110,7 @@ h5 {
   
 .dictionary p {
   font-weight: 400;
+  max-height: 1em;
 }
 
 .dictionary h5 {
