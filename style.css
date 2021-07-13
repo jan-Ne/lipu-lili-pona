@@ -144,7 +144,7 @@ p.light {
   hr {
     page-break-after: always;
   }
-  .page {
-    margin: 0px
+  @page {
+    margin: 0;
   }
 }
