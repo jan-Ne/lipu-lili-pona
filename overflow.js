@@ -7,6 +7,10 @@ $(function() {
       if (overflowAmt > 0){
         var size = parseFloat($(this).css("font-size"));
         $(this).css("font-size", Math.floor((size - 0.1)*10)/10);
+        if (overflowAmt > 0){
+          var size = parseFloat($(this).css("font-size"));
+          $(this).css("font-size", size - 0.05);
+        }
       }
     }
   });
