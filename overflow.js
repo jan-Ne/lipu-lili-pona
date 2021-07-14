@@ -1,4 +1,4 @@
-$()function() {
+$(function() {
   $(".dictionary p").each(function() {
     var overflowAmt = this.scrollWidth - this.clientWidth;
     var size = parseFloat($(this).css("font-size"));
