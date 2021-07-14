@@ -109,6 +109,7 @@ h5 {
 }
   
 .dictionary p {
+  align-self: center;
   font-weight: 400;
   max-height: 1.4em;
   white-space: nowrap;
