@@ -1,63 +1,63 @@
 var lang;
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/"){
   lang = "English";
-  document.getElementById("icon").href="lipu_lili_pona_en.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_en.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/id/"){
   lang = "Bahasa Indonesia";
-  document.getElementById("icon").href="lipu_lili_pona_id.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_id.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/cs/"){
   lang = "Čeština";
-  document.getElementById("icon").href="lipu_lili_pona_cs.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_cs.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/de/"){
   lang = "Deutsch";
-  document.getElementById("icon").href="lipu_lili_pona_de.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_de.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/es/"){
   lang = "Español";
-  document.getElementById("icon").href="lipu_lili_pona_es.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_es.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/eo/"){
   lang = "Esperanto";
-  document.getElementById("icon").href="lipu_lili_pona_eo.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_eo.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/fr/"){
   lang = "Français";
-  document.getElementById("icon").href="lipu_lili_pona_fr.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_fr.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/it/"){
   lang = "Italiano";
-  document.getElementById("icon").href="lipu_lili_pona_it.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_it.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/nl/"){
   lang = "Nederlands";
-  document.getElementById("icon").href="lipu_lili_pona_nl.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_nl.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pl/"){
   lang = "Polski";
-  document.getElementById("icon").href="lipu_lili_pona_pl.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_pl.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/pt/"){
   lang = "Português";
-  document.getElementById("icon").href="lipu_lili_pona_pt.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_pt.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/ru/"){
   lang = "Русский";
-  document.getElementById("icon").href="lipu_lili_pona_ru.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_ru.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/sk/"){
   lang = "Slovenčina";
-  document.getElementById("icon").href="lipu_lili_pona_sk.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_sk.pdf");
 }  
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/tr/"){
   lang = "Türkçe";
-  document.getElementById("icon").href="lipu_lili_pona_tr.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_tr.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/zh/"){
   lang = "中文";
-  document.getElementById("icon").href="lipu_lili_pona_zh.pdf";
+  $("#pdf-icon").attr("href", "lipu_lili_pona_zh.pdf");
 }
 if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/lipu-ante"){
   lang = "lipu ante";
