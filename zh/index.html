@@ -396,3 +396,10 @@
   </div>
 </body>
 </html>
+<script>
+    if (window.location.href == "https://jan-ne.github.io/lipu-lili-pona/") {
+      $("#pdf-icon").attr("href", "lipu_lili_pona_en.pdf");
+    } else {
+      $("#pdf-icon").attr("href", "lipu_lili_pona_"+window.location.href.substring(40, 42)+".pdf");
+    }
+</script>
