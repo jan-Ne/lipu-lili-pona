@@ -56,6 +56,21 @@ a {
   padding: 96px 72px;
 }
 
+icon {
+    position: relative;
+    left: 755px;
+    top: -96px;
+    display: block;
+    width: 37px;
+    padding: 7px 5px 10px 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 h1 {
   text-align: center; 
   margin: 0px;
