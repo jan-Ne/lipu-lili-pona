@@ -166,4 +166,6 @@ p.light {
   @page {
     margin: 0;
   }
+  #pdf-icon {
+    display: none;
 }
