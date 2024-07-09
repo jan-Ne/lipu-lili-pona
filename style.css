@@ -157,7 +157,7 @@ p.light {
 @media only screen and (max-width: 956px) {
   #pdf-icon {
     position: initial;
-    margin: 93%;
+    left: 687px;
     color: #5b5b5b;
     text-decoration: underline;
     text-underline-offset: 1px;
